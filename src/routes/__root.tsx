@@ -26,7 +26,12 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title:
+          'SynEdge BD - Web Development, SEO, and Creative Solutions in Bangladesh',
+      },
+      {
+        description:
+          'SynEdge BD offers expert web development, SEO optimization, digital marketing, and creative services to help businesses in Bangladesh grow and succeed online.',
       },
     ],
     links: [
