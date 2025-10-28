@@ -6,9 +6,11 @@ import {
   Target,
   TrendingUp,
 } from 'lucide-react';
+
 export const Route = createFileRoute('/')({
   component: Home,
 });
+
 export default function Home() {
   return (
     <main>
