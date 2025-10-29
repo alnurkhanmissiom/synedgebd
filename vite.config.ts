@@ -22,10 +22,7 @@ const config = defineConfig({
     },
   },
   server: {
-    port: 3000,
-  },
-  preview: {
-    port: 3000,
+    port: 5000,
   },
   build: {
     minify: 'esbuild',
