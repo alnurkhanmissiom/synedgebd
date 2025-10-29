@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import { tanstackStart } from '@tanstack/react-start/plugin/vite';
 import viteReact from '@vitejs/plugin-react';
 import viteTsConfigPaths from 'vite-tsconfig-paths';
+import { nitro } from 'nitro/vite';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 
@@ -12,6 +13,7 @@ const config = defineConfig({
       projects: ['./tsconfig.json'],
     }),
     tanstackStart(),
+    nitro(),
     viteReact(),
   ],
   css: {
@@ -19,7 +21,12 @@ const config = defineConfig({
       plugins: [tailwindcss(), autoprefixer()],
     },
   },
-  // Production optimizations
+  server: {
+    port: 3000,
+  },
+  preview: {
+    port: 3000,
+  },
   build: {
     minify: 'esbuild',
     rollupOptions: {
