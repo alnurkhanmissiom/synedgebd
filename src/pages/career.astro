@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-4 md:px-8 bg-transparent pt-32">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Join Our <span class="text-blue-500">Creative Team</span></h1>
+    <p class="max-w-2xl text-gray-300 text-lg mb-8">
+      At SynEdge BD, we believe innovation begins with people. Join a passionate team shaping the digital future.
+    </p>
+    <a href="#open-positions" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full font-semibold transition-all">Explore Openings</a>
+  </section>
+
+  <!-- Why Join Us -->
+  <section class="py-24 bg-black/60 backdrop-blur-sm text-center px-4 md:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold mb-8">Why Join <span class="text-blue-500">SynEdge BD</span>?</h2>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-10 text-gray-300">
+      <div class="p-6 rounded-2xl bg-gray-800/50 hover:bg-gray-700/70 transition">
+        <i data-lucide="cpu" class="w-10 h-10 mx-auto text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Cutting-Edge Projects</h3>
+        <p>Work with emerging technologies in AI, automation, and industrial systems.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-gray-800/50 hover:bg-gray-700/70 transition">
+        <i data-lucide="users" class="w-10 h-10 mx-auto text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Collaborative Culture</h3>
+        <p>We value creativity, curiosity, and open collaboration among teammates.</p>
+      </div>
+      <div class="p-6 rounded-2xl bg-gray-800/50 hover:bg-gray-700/70 transition">
+        <i data-lucide="rocket" class="w-10 h-10 mx-auto text-blue-400 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Career Growth</h3>
+        <p>Continuous learning opportunities, mentorship, and professional development.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Positions -->
+  <section id="open-positions" class="py-24 bg-black/40 backdrop-blur-sm text-center px-4 md:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold mb-8">Current Openings</h2>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-10 text-gray-300">
+      <div class="p-6 rounded-2xl bg-gray-800/50 hover:bg-gray-700/70 transition">
+        <h3 class="text-xl font-semibold mb-2">Frontend Developer</h3>
+        <p>React, TailwindCSS, and modern JS frameworks experience required.</p>
+        <a href="mailto:hr@synedgebd.com" class="inline-block mt-4 text-blue-400 hover:text-blue-500 font-semibold">Apply Now →</a>
+      </div>
+      <div class="p-6 rounded-2xl bg-gray-800/50 hover:bg-gray-700/70 transition">
+        <h3 class="text-xl font-semibold mb-2">UI/UX Designer</h3>
+        <p>Design clean, modern interfaces with Figma or Adobe XD.</p>
+        <a href="mailto:hr@synedgebd.com" class="inline-block mt-4 text-blue-400 hover:text-blue-500 font-semibold">Apply Now →</a>
+      </div>
+      <div class="p-6 rounded-2xl bg-gray-800/50 hover:bg-gray-700/70 transition">
+        <h3 class="text-xl font-semibold mb-2">Digital Marketing Executive</h3>
+        <p>SEO, Google Ads, and Social Media expertise preferred.</p>
+        <a href="mailto:hr@synedgebd.com" class="inline-block mt-4 text-blue-400 hover:text-blue-500 font-semibold">Apply Now →</a>
+      </div>
+    </div>
+  </section>
+</Layout>

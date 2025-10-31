@@ -1,0 +1,89 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+   <canvas id="header-canvas"> </canvas>
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-24 pb-16 px-4 md:px-8 bg-transparent">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight max-w-4xl mx-auto">
+                Transform your business with <span class="text-primary">web, SEO, and creative solutions</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-400 mb-10 max-w-3xl mx-auto">
+                SynEdge BD helps businesses grow with professional web development, search engine optimization, digital marketing, and creative design services.
+            </p>
+            <a href="#services" class="inline-flex items-center space-x-2 bg-primary text-black text-lg px-8 py-3 rounded-full font-bold btn-primary">
+                <span>Explore Services</span>
+                <i data-lucide="arrow-down-circle" class="w-5 h-5"></i>
+            </a>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="py-20 md:py-32 px-4 md:px-8">
+        <div class="container mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-white">Our Services</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Service Card 1: Web Development -->
+                <div class="service-card bg-card p-8 rounded-2xl shadow-xl">
+                    <div class="p-3 bg-primary/20 rounded-xl inline-block mb-4">
+                        <i data-lucide="code" class="w-8 h-8 text-primary"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Web Development</h3>
+                    <p class="text-gray-400">Custom websites, web apps, and eCommerce solutions optimized for performance and scalability.</p>
+                </div>
+
+                <!-- Service Card 2: SEO Optimization -->
+                <div class="service-card bg-card p-8 rounded-2xl shadow-xl">
+                    <div class="p-3 bg-primary/20 rounded-xl inline-block mb-4">
+                        <i data-lucide="trending-up" class="w-8 h-8 text-primary"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">SEO Optimization</h3>
+                    <p class="text-gray-400">Boost your visibility and reach the right audience through proven SEO strategies and analytics.</p>
+                </div>
+
+                <!-- Service Card 3: Digital Marketing -->
+                <div class="service-card bg-card p-8 rounded-2xl shadow-xl">
+                    <div class="p-3 bg-primary/20 rounded-xl inline-block mb-4">
+                        <i data-lucide="target" class="w-8 h-8 text-primary"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Digital Marketing</h3>
+                    <p class="text-gray-400">Data-driven campaigns across social, search, and email to attract and convert more customers.</p>
+                </div>
+
+                <!-- Service Card 4: Creative Services -->
+                <div class="service-card bg-card p-8 rounded-2xl shadow-xl">
+                    <div class="p-3 bg-primary/20 rounded-xl inline-block mb-4">
+                        <i data-lucide="palette" class="w-8 h-8 text-primary"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Creative Services</h3>
+                    <p class="text-gray-400">Branding, graphics, and UI/UX design that deliver stunning visuals and engaging experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-20 md:py-32 px-4 md:px-8 bg-gray-950">
+        <div class="container mx-auto max-w-4xl text-center">
+            <span class="text-primary uppercase font-semibold tracking-widest text-sm mb-2 block">Our Story</span>
+            <h2 class="text-4xl md:text-5xl font-bold mb-8">About SynEdge BD</h2>
+            <p class="text-xl text-gray-400 leading-relaxed">
+                SynEdge BD is a **Bangladesh-based digital agency** delivering impactful web and marketing solutions. Our team helps businesses expand their reach through technology and creativity, focusing on performance, scalability, and measurable growth for our clients.
+            </p>
+        </div>
+    </section>
+    <!-- Contact Section / CTA -->
+    <section id="contact" class="py-20 md:py-32 px-4 md:px-8">
+        <div class="container mx-auto text-center max-w-3xl">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Transform Your Business?</h2>
+            <p class="text-xl text-gray-400 mb-10">
+                Let's discuss your project and discover how our expert team can help you achieve your digital goals.
+            </p>
+            <a href="mailto:contact@synedgebd.com" class="inline-block bg-primary text-black text-lg px-10 py-4 rounded-full font-bold btn-primary">
+                Contact SynEdge BD Today
+            </a>
+        </div>
+    </section>
+</Layout>
