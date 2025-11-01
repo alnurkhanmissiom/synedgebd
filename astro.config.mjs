@@ -9,5 +9,6 @@ export default defineConfig({
         plugins: [tailwindcss(), autoprefixer()],
       },
     },
+    preview: { allowedHosts: ['synedgebd.com', 'localhost', '127.0.0.1'] },
   },
 });
