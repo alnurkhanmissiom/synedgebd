@@ -1,7 +1,7 @@
 import { int, mysqlTable, varchar } from 'drizzle-orm/mysql-core';
-import { timestamps } from '../libs/time';
+import { timestamps } from '@/drizzle/libs/time';
 
-export const massagesSchema = mysqlTable('contact', {
+export const contactSchema = mysqlTable('contact', {
   id: int('id').autoincrement().primaryKey(),
   name: varchar('name', { length: 45 }).notNull(),
   email: varchar('email', { length: 45 }).notNull().unique(),
@@ -11,4 +11,4 @@ export const massagesSchema = mysqlTable('contact', {
   ...timestamps,
 });
 
-export type massagesSchemaType = typeof massagesSchema.$inferSelect;
+export type contactSchemaType = typeof contactSchema.$inferSelect;

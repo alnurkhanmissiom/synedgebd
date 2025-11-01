@@ -7,7 +7,7 @@ import {
   text,
   json,
 } from 'drizzle-orm/mysql-core';
-import { timestamps } from '../libs/time';
+import { timestamps } from '@/drizzle/libs/time';
 
 export const adminSchema = mysqlTable('admins', {
   id: int('id').autoincrement().primaryKey(),
