@@ -14,7 +14,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "astro": "^5.15.3",
+    "astro": "^5.17.1",
     "drizzle-orm": "^0.44.7",
     "mysql2": "^3.15.3"
   },
