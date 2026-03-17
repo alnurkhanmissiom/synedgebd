@@ -867,38 +867,6 @@ a {
   align-items: center;
 }
 
-.logo {
-  font-size: 28px;
-  font-weight: bold;
-  color: #3b82f6;
-}
-
-.nav-menu ul {
-  display: flex;
-  gap: 30px;
-}
-
-.nav-menu a {
-  font-size: 16px;
-  color: #f0f0f0;
-}
-
-.nav-menu a:hover {
-  color: #3b82f6;
-}
-
-.btn-contact {
-  border: 1px solid #ffffff;
-  padding: 10px 24px;
-  border-radius: 20px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.btn-contact:hover {
-  background-color: #ffffff;
-  color: #0d0d0d;
-}
 
 /* --- Common Button Styles --- */
 .btn-primary {
@@ -1191,3 +1159,31 @@ a {
 }
 
 /* Company Page */
+
+
+/* foooter Page*/
+  @keyframes blobFloat {
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+    33% {
+      transform: translate(30px, -20px) scale(1.08);
+    }
+    66% {
+      transform: translate(-20px, 20px) scale(0.95);
+    }
+  }
+
+  .animate-blob {
+    animation: blobFloat 12s ease-in-out infinite;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+/* foooter Page*/

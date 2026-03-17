@@ -2,109 +2,194 @@
 import Layout from '@/layouts/Layout.astro';
 ---
 
-<Layout title="SynEdge BD - Web Development, SEO, and Creative Solutions in Bangladesh" description= "SynEdge BD offers expert web development, SEO optimization, digital marketing, and creative services to help businesses in Bangladesh grow and succeed online.">
-    <!-- ===== Hero Section ===== -->
-  <section class="pt-40 pb-24 text-center relative overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-90"></div>
-    <div class="relative z-10 max-w-4xl mx-auto px-6">
-      <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-        Transform Your <span class="text-primary">Digital Presence</span>
-      </h1>
-      <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-        SynEdge BD empowers brands to grow through data-driven strategies in Web, SEO, Marketing, and Creative excellence.
-      </p>
-      <a href="#services" class="inline-block bg-primary text-black font-bold px-8 py-3 rounded-full hover:scale-105 transition-transform">
-        Explore Services ↓
-      </a>
-    </div>
-  </section>
+<Layout
+  title="SynEdge BD - Web Development, SEO, and Creative Solutions in Bangladesh"
+  description="SynEdge BD offers expert web development, SEO optimization, digital marketing, and creative services to help businesses in Bangladesh grow and succeed online."
+>
   <!-- ===== Services Overview ===== -->
-  <section id="services" class="py-24 px-6 max-w-7xl mx-auto">
-    <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">Our Core Service Pillars</h2>
+  <section id="services" class="relative bg-slate-950 py-24 px-6">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_center,rgba(34,211,238,0.07),transparent_25%)]"></div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-12">
-
-      <!-- Web Development -->
-      <div class="service-card bg-gray-900 p-10 rounded-2xl fade-up">
-        <div class="mb-5">
-          <i data-lucide="code-2" class="w-12 h-12 text-primary"></i>
-        </div>
-        <h3 class="text-3xl font-bold mb-3">Web Development & Technology</h3>
-        <p class="text-gray-400 mb-5">
-          We craft high-performance, responsive, and secure web platforms that drive conversions and enhance user experience.
+    <div class="relative mx-auto max-w-7xl">
+      <div class="mb-16 text-center">
+        <span class="inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm font-semibold text-cyan-300">
+          OUR SERVICES
+        </span>
+        <h2 class="mt-5 text-4xl font-bold md:text-5xl">Our Core Service Pillars</h2>
+        <p class="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
+          A premium digital stack designed to improve visibility, performance, and business growth.
         </p>
-        <ul class="space-y-2 text-gray-400">
-          <li>⚡ Custom Websites & Web Apps</li>
-          <li>🛍️ E-commerce (Shopify, WooCommerce, Custom)</li>
-          <li>🔧 CMS Integration & Headless Architecture</li>
-          <li>🚀 Performance Optimization</li>
-        </ul>
-        <a href="#" class="inline-block mt-6 bg-primary text-black px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform">Start a Web Project</a>
       </div>
 
-      <!-- SEO Optimization -->
-      <div class="service-card bg-gray-900 p-10 rounded-2xl fade-up">
-        <div class="mb-5">
-          <i data-lucide="search" class="w-12 h-12 text-primary"></i>
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+        <!-- Web Development -->
+        <div class="group rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_20px_50px_rgba(15,23,42,0.28)] backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-cyan-400/40 hover:shadow-[0_20px_60px_rgba(34,211,238,0.18)] md:p-10">
+          <div class="mb-5 inline-flex rounded-2xl bg-cyan-400/15 p-4 text-cyan-300">
+            <i class="ri-code-s-slash-line text-3xl"></i>
+          </div>
+          <h3 class="mb-3 text-3xl font-bold">Web Development & Technology</h3>
+          <p class="mb-5 text-slate-400 leading-8">
+            We craft high-performance, responsive, and secure web platforms that drive conversions and enhance user experience.
+          </p>
+          <ul class="space-y-2 text-slate-300">
+            <li>⚡ Custom Websites & Web Apps</li>
+            <li>🛍️ E-commerce (Shopify, WooCommerce, Custom)</li>
+            <li>🔧 CMS Integration & Headless Architecture</li>
+            <li>🚀 Performance Optimization</li>
+          </ul>
+          <a
+            href="#contact"
+            class="mt-6 inline-block rounded-full bg-cyan-400 px-6 py-2 font-semibold text-slate-950 transition-transform hover:scale-105"
+          >
+            Start a Web Project
+          </a>
         </div>
-        <h3 class="text-3xl font-bold mb-3">Search Engine Optimization (SEO)</h3>
-        <p class="text-gray-400 mb-5">
-          We combine data, strategy, and technology to maximize visibility and ensure long-term organic growth.
-        </p>
-        <ul class="space-y-2 text-gray-400">
-          <li>🔍 Technical & On-Page SEO Audits</li>
-          <li>📝 Content Strategy & Keyword Optimization</li>
-          <li>🔗 Link Building & Domain Authority</li>
-          <li>📍 Local SEO & Google Maps Ranking</li>
-        </ul>
-        <a href="#" class="inline-block mt-6 bg-primary text-black px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform">Request SEO Audit</a>
-      </div>
 
-      <!-- Digital Marketing -->
-      <div class="service-card bg-gray-900 p-10 rounded-2xl fade-up">
-        <div class="mb-5">
-          <i data-lucide="megaphone" class="w-12 h-12 text-primary"></i>
+        <!-- SEO -->
+        <div class="group rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_20px_50px_rgba(15,23,42,0.28)] backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-cyan-400/40 hover:shadow-[0_20px_60px_rgba(34,211,238,0.18)] md:p-10">
+          <div class="mb-5 inline-flex rounded-2xl bg-violet-400/15 p-4 text-violet-300">
+            <i class="ri-search-eye-line text-3xl"></i>
+          </div>
+          <h3 class="mb-3 text-3xl font-bold">Search Engine Optimization (SEO)</h3>
+          <p class="mb-5 text-slate-400 leading-8">
+            We combine data, strategy, and technology to maximize visibility and ensure long-term organic growth.
+          </p>
+          <ul class="space-y-2 text-slate-300">
+            <li>🔍 Technical & On-Page SEO Audits</li>
+            <li>📝 Content Strategy & Keyword Optimization</li>
+            <li>🔗 Link Building & Domain Authority</li>
+            <li>📍 Local SEO & Google Maps Ranking</li>
+          </ul>
+          <a
+            href="#contact"
+            class="mt-6 inline-block rounded-full bg-violet-400 px-6 py-2 font-semibold text-white transition-transform hover:scale-105"
+          >
+            Request SEO Audit
+          </a>
         </div>
-        <h3 class="text-3xl font-bold mb-3">Digital Marketing Campaigns</h3>
-        <p class="text-gray-400 mb-5">
-          Execute powerful campaigns that generate leads and increase conversions across every digital channel.
-        </p>
-        <ul class="space-y-2 text-gray-400">
-          <li>🎯 PPC & Google Ads Management</li>
-          <li>📱 Social Media Advertising & Strategy</li>
-          <li>📧 Email & Automation Campaigns</li>
-          <li>📊 Analytics, CRO & Reporting</li>
-        </ul>
-        <a href="#" class="inline-block mt-6 bg-primary text-black px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform">See Marketing Plans</a>
-      </div>
 
-      <!-- Creative & Branding -->
-      <div class="service-card bg-gray-900 p-10 rounded-2xl fade-up">
-        <div class="mb-5">
-          <i data-lucide="palette" class="w-12 h-12 text-primary"></i>
+        <!-- Marketing -->
+        <div class="group rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_20px_50px_rgba(15,23,42,0.28)] backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-cyan-400/40 hover:shadow-[0_20px_60px_rgba(34,211,238,0.18)] md:p-10">
+          <div class="mb-5 inline-flex rounded-2xl bg-amber-400/15 p-4 text-amber-300">
+            <i class="ri-megaphone-line text-3xl"></i>
+          </div>
+          <h3 class="mb-3 text-3xl font-bold">Digital Marketing Campaigns</h3>
+          <p class="mb-5 text-slate-400 leading-8">
+            Execute powerful campaigns that generate leads and increase conversions across every digital channel.
+          </p>
+          <ul class="space-y-2 text-slate-300">
+            <li>🎯 PPC & Google Ads Management</li>
+            <li>📱 Social Media Advertising & Strategy</li>
+            <li>📧 Email & Automation Campaigns</li>
+            <li>📊 Analytics, CRO & Reporting</li>
+          </ul>
+          <a
+            href="#contact"
+            class="mt-6 inline-block rounded-full bg-amber-400 px-6 py-2 font-semibold text-slate-950 transition-transform hover:scale-105"
+          >
+            See Marketing Plans
+          </a>
         </div>
-        <h3 class="text-3xl font-bold mb-3">Creative Design & Branding</h3>
-        <p class="text-gray-400 mb-5">
-          Creativity that inspires. We build visual experiences and brand identities that leave a lasting impression.
-        </p>
-        <ul class="space-y-2 text-gray-400">
-          <li>🎨 Brand Strategy & Identity Design</li>
-          <li>🧠 UI/UX Design & Wireframing</li>
-          <li>🖼️ Marketing Collateral & Graphic Design</li>
-          <li>🎬 Motion Graphics & Video Content</li>
-        </ul>
-        <a href="#" class="inline-block mt-6 bg-primary text-black px-6 py-2 rounded-full font-semibold hover:scale-105 transition-transform">View Portfolio</a>
+
+        <!-- Creative -->
+        <div class="group rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_20px_50px_rgba(15,23,42,0.28)] backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-cyan-400/40 hover:shadow-[0_20px_60px_rgba(34,211,238,0.18)] md:p-10">
+          <div class="mb-5 inline-flex rounded-2xl bg-fuchsia-400/15 p-4 text-fuchsia-300">
+            <i class="ri-palette-line text-3xl"></i>
+          </div>
+          <h3 class="mb-3 text-3xl font-bold">Creative Design & Branding</h3>
+          <p class="mb-5 text-slate-400 leading-8">
+            Creativity that inspires. We build visual experiences and brand identities that leave a lasting impression.
+          </p>
+          <ul class="space-y-2 text-slate-300">
+            <li>🎨 Brand Strategy & Identity Design</li>
+            <li>🧠 UI/UX Design & Wireframing</li>
+            <li>🖼️ Marketing Collateral & Graphic Design</li>
+            <li>🎬 Motion Graphics & Video Content</li>
+          </ul>
+          <a
+            href="#contact"
+            class="mt-6 inline-block rounded-full bg-fuchsia-400 px-6 py-2 font-semibold text-white transition-transform hover:scale-105"
+          >
+            View Portfolio
+          </a>
+        </div>
       </div>
     </div>
   </section>
-  <!-- ===== CTA Section ===== -->
-  <section class="py-24 text-center bg-gray-950">
-    <h2 class="text-4xl font-bold mb-4">Ready to Take Your Business to the Next Level?</h2>
-    <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
-      Let’s collaborate to build something extraordinary — from stunning web platforms to impactful digital strategies.
-    </p>
-    <a href="contact-us.html" class="inline-block bg-primary text-black text-lg px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform">
-      Start Your Project
-    </a>
+
+  <!-- ===== Process Section ===== -->
+  <section id="process" class="bg-slate-950 py-24 px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl">
+      <div class="mb-16 text-center">
+        <span class="inline-flex rounded-full border border-amber-400/20 bg-amber-400/10 px-4 py-2 text-sm font-semibold text-amber-300">
+          HOW WE WORK
+        </span>
+        <h2 class="mt-5 text-4xl font-bold md:text-5xl">
+          A clear process, built like a modern product pipeline
+        </h2>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-7">
+          <div class="text-4xl font-black text-cyan-300">01</div>
+          <h3 class="mt-4 text-xl font-bold">Discover</h3>
+          <p class="mt-3 text-slate-400">We map goals, users, bottlenecks, and opportunities.</p>
+        </div>
+
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-7">
+          <div class="text-4xl font-black text-violet-300">02</div>
+          <h3 class="mt-4 text-xl font-bold">Design</h3>
+          <p class="mt-3 text-slate-400">We create visual systems and conversion-focused experiences.</p>
+        </div>
+
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-7">
+          <div class="text-4xl font-black text-amber-300">03</div>
+          <h3 class="mt-4 text-xl font-bold">Develop</h3>
+          <p class="mt-3 text-slate-400">We build fast, scalable, and production-ready digital products.</p>
+        </div>
+
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-7">
+          <div class="text-4xl font-black text-fuchsia-300">04</div>
+          <h3 class="mt-4 text-xl font-bold">Grow</h3>
+          <p class="mt-3 text-slate-400">We optimize with SEO, analytics, and continuous marketing loops.</p>
+        </div>
+      </div>
+    </div>
   </section>
-  </Layout>
+
+  <!-- ===== CTA Section ===== -->
+  <section
+    id="contact"
+    class="relative overflow-hidden bg-[linear-gradient(135deg,#111827_0%,#1e1b4b_50%,#020617_100%)] py-24 px-4 sm:px-6 lg:px-8"
+  >
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(34,211,238,0.10),transparent_25%),radial-gradient(circle_at_bottom_right,rgba(168,85,247,0.14),transparent_30%)]"></div>
+
+    <div class="relative mx-auto max-w-5xl rounded-[2rem] border border-white/10 bg-white/10 p-8 text-center shadow-[0_25px_60px_rgba(2,6,23,0.35)] backdrop-blur-md sm:p-12">
+      <span class="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-semibold text-cyan-200">
+        READY TO TAKE YOUR BUSINESS TO THE NEXT LEVEL?
+      </span>
+
+      <h2 class="mt-6 text-4xl font-bold md:text-5xl">Let’s build something extraordinary</h2>
+
+      <p class="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">
+        From stunning web platforms to impactful digital strategies, we create systems that move your brand forward.
+      </p>
+
+      <div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+        <a
+          href="/contact-us"
+          class="inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-base font-bold text-slate-900 transition hover:scale-105"
+        >
+          Start Your Project
+        </a>
+
+        <a
+          href="#services"
+          class="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-8 py-3.5 text-base font-semibold text-white transition hover:border-cyan-300/50"
+        >
+          See Services
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
